@@ -49,12 +49,12 @@ class SLAppBarWidget extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       leading: leadingWidget!=null ? Padding(padding: EdgeInsets.only(left: 20.w),child: leadingWidget):(automaticallyImplyLeading?backBtn(context):null),//BackButton()
       leadingWidth: 72.w,
-      // /  backgroundColor: ThemeUtil.isDark(context)?Theme.of(context).scaffoldBackgroundColor:(backgroundColor??ColorsV.navigatorColor),
+       backgroundColor: ThemeUtil.isDark(context)?Theme.of(context).scaffoldBackgroundColor:(backgroundColor??ColorsV.navigatorColor),
       title: titleWidget ?? Text(title!,style: textStyle == null ? ( ThemeUtil.isDark(context) ? TextStyles.TS_FFFFFF_W5_36sp:TextStyles.TS_FFFFFF_W5_36sp) : textStyle),//style: textStyle == null ? TextStyle(fontSize: 36.sp, fontWeight: FontWeight.w600,color: Colors.black) : textStyle
       centerTitle: centerTitle,
       elevation: elevation ?? 0,//阴影
       shadowColor: ColorUtil.hexColor(Colors.white.value, alpha: 0.3),
-      // iconTheme: iconTheme==null?IconThemeData(color: ThemeUtil.isDark(context)?Colors.white:(backgroundColor==Theme.of(context).scaffoldBackgroundColor?Colors.white:Colors.black)):iconTheme,
+       iconTheme: iconTheme==null?IconThemeData(color: Colors.white):iconTheme,
       actions: actions ?? null,
       bottom: bottom,
       automaticallyImplyLeading: automaticallyImplyLeading,

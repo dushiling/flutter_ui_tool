@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
 
 import 'child/keep_alive.dart';
 class TopBarOnePage extends StatefulWidget {
@@ -40,19 +41,7 @@ class _TopBarOnePageState extends State<TopBarOnePage>  with SingleTickerProvide
         // 监听滑动/点选位置
         if (controller.index.toDouble() == controller.animation!.value) {
           print('controller.index====${controller.index}');
-          // switch (controller.index) {
-          //   case 0:
-          //     print('0');
-          //     break;
-          //   case 1:
-          //     print('1');
-          //     break;
-          //   case 2:
-          //     print('2');
-          //     break;
-          //   default:
-          //     break;
-          // }
+
         }
       });
   }
@@ -62,7 +51,7 @@ class _TopBarOnePageState extends State<TopBarOnePage>  with SingleTickerProvide
     return Scaffold(
       appBar: AppBar(
           title: Text("TopBarOne-NoScroll"),
-          backgroundColor: Colors.blue,
+          backgroundColor: ColorsV.primaryColor,
           bottom: TabBar(
             tabs: titleTabs,
             // setup the controller

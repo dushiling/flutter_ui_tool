@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
 class TopBarThreePage extends StatefulWidget {
   const TopBarThreePage({Key? key}) : super(key: key);
 
@@ -55,7 +56,7 @@ class _TopBarThreePageState extends State<TopBarThreePage> with TickerProviderSt
     return Scaffold(
         appBar: AppBar(
           title: Text("TopBarThree-Height44"),
-          backgroundColor: Colors.green,
+          backgroundColor: ColorsV.primaryColor,
           bottom: PreferredSize(
             preferredSize: Size.fromHeight(44),
             child: Material(

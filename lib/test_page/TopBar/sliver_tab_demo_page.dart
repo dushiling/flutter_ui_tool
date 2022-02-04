@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_ui_tool/test_page/delegates/sliver_header_delegate.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
+import 'package:flutter_ui_tool/widgets/sl_app_bar_widget.dart';
 
 /// 低级版 Sliver Tab，还有 SliverTabDemoPage2
 class SliverTabDemoPage extends StatefulWidget {
@@ -77,9 +79,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: new Text("SliverTabDemoPage"),
-      ),
+      appBar: SLAppBarWidget(title: "sliver_tab_NoScroll"),
       body: new Container(
         child: new CustomScrollView(
           physics: BouncingScrollPhysics(),
@@ -103,7 +103,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage>
                       bool overlapsContent) {
                     return Container(
                       height: maxHeight,
-                      color: Colors.blue,
+                      color: ColorsV.primaryColor,
                       child: TabBar(
                         indicatorColor: Colors.cyanAccent,
                         unselectedLabelColor: Colors.white.withAlpha(100),

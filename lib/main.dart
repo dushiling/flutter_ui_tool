@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
         builder: () => GetMaterialApp(
               title: 'GetX Demo',
               home: SplashScreen(),
-              theme: ThemeUtil().getTheme(isDarkMode: ThemeUtil().getThemeMode()==ThemeMode.dark),//设置一些xxx的主题颜色
+              theme: ThemeUtil().getTheme(isDarkMode: false),//设置一些xxx的主题颜色
               themeMode: ThemeUtil().getThemeMode(),//当前是什么模式：light、dart、system
               initialRoute: RouterConfig.main,
               getPages: RouterConfig.getPages,

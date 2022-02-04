@@ -9,7 +9,10 @@ class ColorsV {
     static get primaryColor {
       return Color(0xFF60C1C9);
     }
-
+    ///导航栏颜色
+    static get navigatorColor {
+      return Color(0xFF60C1C9);
+    }
     ///背景色
     static get pageBgColor {
       return Color(0xFFF6F6F6);

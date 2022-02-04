@@ -2,6 +2,8 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
+import 'package:flutter_ui_tool/widgets/sl_app_bar_widget.dart';
 
 /// 高级版 Sliver Tab
 class SliverTabDemoPage2 extends StatefulWidget {
@@ -99,9 +101,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage2>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: new Text("SliverTabDemoPage2"),
-      ),
+      appBar:SLAppBarWidget(title: "sliver_tab_Scroll"),
       body: NestedScrollView(
         controller: scrollController,
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
@@ -123,7 +123,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage2>
                         bool overlapsContent) {
                       return Container(
                         height: maxHeight,
-                        color: Colors.blue,
+                        color: ColorsV.primaryColor,
                         child: TabBar(
                           controller: tabController,
                           indicatorColor: Colors.cyanAccent,

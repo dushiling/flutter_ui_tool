@@ -3,6 +3,8 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_ui_tool/test_page/TopBar/sliver_tab_demo_page3/sliver_tab_child_page.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
+import 'package:flutter_ui_tool/widgets/sl_app_bar_widget.dart';
 
 final kMinHeight = 30.0;
 
@@ -74,9 +76,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage3>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: new Text("SliverTabDemoPage3"),
-      ),
+      appBar:SLAppBarWidget(title: "sliver_tab_Extent"),
       body: new NotificationListener(
         onNotification: (ScrollNotification notification) {
           if (notification.metrics is PageMetrics) {
@@ -131,7 +131,7 @@ class _SliverTabDemoPageState extends State<SliverTabDemoPage3>
           children: <Widget>[
             Container(
               height: minHeight,
-              color: Colors.blue,
+              color: ColorsV.primaryColor,
               child: TabBar(
                 controller: tabController,
                 indicatorColor: Colors.cyanAccent,
