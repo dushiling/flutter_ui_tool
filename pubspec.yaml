@@ -1,0 +1,85 @@
+name: flutter_ui_tool
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8     #getx状态管理
+  dio: ^4.0.1     #网络请求
+  flutter_screenutil: ^5.0.0+2  #屏幕适配
+  common_utils: ^2.0.2    #常用工具类
+  sp_util: ^2.0.3  # 封装的 shared_preferences: ^2.0.8
+  device_info: ^2.0.3 #设备信息
+  package_info: ^2.0.2  #包的信息
+  flutter_easyrefresh: ^2.2.1 #下拉刷新加载更多
+  flutter_easyloading: ^3.0.3 #加载框，提示框
+  encrypt: ^5.0.1 #算法加密
+
+
+  flutter_swiper_null_safety: ^1.0.2 #轮播图
+  fancy_bottom_navigation: ^0.3.3 #凸起bottomBar，只有一种样式
+  convex_bottom_bar: ^3.0.0 #凸起bottomBar，多种样式
+  flutter_vector_icons: ^1.0.0 #矢量icon图标
+  flare_flutter: ^3.0.2  #表情特效
+  video_player: ^2.2.7   #视频播放
+  cached_network_image: ^3.2.0 # 带缓存的图片
+  url_launcher: ^6.0.17 #打开网页，发送邮件、拨打电话、打开外部应用等
+  image_picker: ^0.8.4+4 #上传图片
+  image_cropper: ^1.4.1 #图片剪裁
+  clippy_flutter: ^2.0.0-nullsafety.1  #剪裁图形形状
+  animations: ^2.0.2  #页面、控件动画
+  flutter_pickers: ^2.1.4 #选择器 单选、日期、地址
+  azlistview: ^2.0.0-nullsafety.0  #城市列表
+  lpinyin: ^2.0.3  #汉字转拼音
+  flutter_slidable: ^1.1.0  #侧滑删除
+  scroll_to_index: ^2.1.1  #滚动到指定位置
+  flutter_inner_drawer: ^1.0.0+1  #左右侧边栏
+  flutter_colorpicker: ^1.0.2  #色值选择picker
+  quiver: ^3.0.1+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/tag_icons/
+    - assets/images/reader/
+    - assets/images/sample/
+    - assets/images/flare/
+    - assets/images/sidebar1/
+    - assets/images/guide/
+    - assets/images/introduction_animation/
+    - assets/data/
+
+
+  fonts:
+    - family: CustomIcon
+      fonts:
+        - asset: assets/fonts/custom/iconfont.ttf
+  #     - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
