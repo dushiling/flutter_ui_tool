@@ -40,6 +40,7 @@
 |sliver_tab_NoScroll|sliver_tab_Scroll|sliver_tab_Extent|
 
 
+
 ### BottomNavigationBar
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/change_color.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
 | :--: | :--: | :--: | :--: |
@@ -47,4 +48,5 @@
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/top_line.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/round.jpg)|
 |顶部线条|ios风格|浮动按钮|圆形突出|
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/curve.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex2.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/concave.jpg)|
-|曲线|凸起弧度1|凸起弧度2||凹入
+|曲线|凸起弧度1|凸起弧度2|凹入|
+
