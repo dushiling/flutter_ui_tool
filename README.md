@@ -50,3 +50,16 @@
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/curve.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex2.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/concave.jpg)|
 |曲线|凸起弧度1|凸起弧度2|凹入|
 
+
+### Sliver
+
+### 登录模板
+![测试gif](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/login_video_demo.gif)
+
+### 侧边栏
+
+### 我的
+
+### 个人中心
+
+### 引导页

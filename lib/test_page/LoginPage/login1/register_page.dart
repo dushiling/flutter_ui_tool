@@ -74,7 +74,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: SLAppBarWidget(title:'',backgroundColor: Theme.of(context).scaffoldBackgroundColor),
+        appBar: SLAppBarWidget(title:'',backgroundColor: Theme.of(context).scaffoldBackgroundColor,iconTheme: IconThemeData(color: Colors.black)),
         body: SingleChildScrollView(
             padding:
             const EdgeInsets.only(left: 16.0, right: 16.0, top: 20.0),

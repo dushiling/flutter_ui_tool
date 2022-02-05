@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_tool/config/enum.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
 import 'package:flutter_ui_tool/utils/size_util.dart';
 import 'package:flutter_ui_tool/utils/tost_util.dart';
 import 'package:flutter_ui_tool/widgets/button.dart';
@@ -92,7 +93,7 @@ class _SlidingLoginPageState extends State<SlidingLoginPage>
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
-                      color: Color(0XFF2a3ed7),
+                      color: ColorsV.primaryColor,
                     ),
                   ),
                 ),
@@ -114,7 +115,7 @@ class _SlidingLoginPageState extends State<SlidingLoginPage>
             width: double.infinity,
             height: SizeUtil.width / 2,
             decoration: BoxDecoration(
-              color: Color(0xFF2A3ED7),
+              color: ColorsV.primaryColor,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(SizeUtil.width / 2),
                 bottomRight: Radius.circular(SizeUtil.width / 2),
@@ -146,7 +147,7 @@ class _SlidingLoginPageState extends State<SlidingLoginPage>
         SlideTransition(
           position: _slideAnimation,
           child: Container(
-            color: Color(0xFF2A3ED7),
+            color: ColorsV.primaryColor,
             padding: EdgeInsets.only(top: 80, left: 42, right: 42),
             width: double.infinity,
             height: _defaultMargin,
@@ -196,7 +197,7 @@ class _SlidingLoginPageState extends State<SlidingLoginPage>
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,
-              color: Color(0XFF2a3ed7),
+              color: ColorsV.primaryColor,
             ),
           ),
           SizedBox(height: 40),
@@ -228,7 +229,7 @@ class _SlidingLoginPageState extends State<SlidingLoginPage>
             child: Text('注册'.toUpperCase(),
                 style: TextStyle(fontSize: 18)),
             textColor: Colors.white,
-            color: Color(0xFF2A3ED7),
+            color: ColorsV.primaryColor,
               halfRadius: true
           )
         ],

@@ -3,6 +3,7 @@ import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:flutter_ui_tool/config/custom_icon.dart';
 import 'package:flutter_ui_tool/test_page/BottomBar/child/conves_child/custom_appbar_sample.dart';
 import 'package:flutter_ui_tool/test_page/delegates/sliver_appbar_delegate.dart';
+import 'package:flutter_ui_tool/utils/color_util.dart';
 import 'package:flutter_ui_tool/utils/size_util.dart';
 import 'package:flutter_ui_tool/utils/style_util.dart';
 
@@ -22,14 +23,14 @@ class _SliverPageState extends State<SliverPage> with SingleTickerProviderStateM
   ];
 
   List<String> titleTabs = [
-    '性感美女',
-    "制服",
-    "清新美女",
-    "校园",
-    "古装",
-    "动漫",
-    "壁纸",
-    "苍老师"
+    '家具家电',
+    "服装",
+    "婴儿用品",
+    "手机",
+    "电脑",
+    "生活用品",
+    "美妆",
+    "厨房用品"
   ];
 
   List<Tab> tabs = [];
@@ -150,11 +151,11 @@ class _SliverPageState extends State<SliverPage> with SingleTickerProviderStateM
                             Container(
                                 padding: EdgeInsets.all(20),
                                 alignment: Alignment.center,
-                                child: Text('这里是tabBar上面的部分',
+                                child: Text('这用在tabBar上面的功能部分',
                                     style: TextStyle(
-                                        color: Colors.white, fontSize: 24.0)),
+                                        color: Colors.white, fontSize: 22.0)),
                                 height: viewHeight,
-                                color: Colors.pinkAccent.withOpacity(0.5))
+                                color: Colors.pink.withOpacity(0.4))
                           ]),
                         ))),
 

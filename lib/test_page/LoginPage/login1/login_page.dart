@@ -68,7 +68,7 @@ class _LoginPageState extends State<PasswordLoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: SLAppBarWidget(title:'',leadingWidget: CloseButton(),backgroundColor: Theme.of(context).scaffoldBackgroundColor ,actions: <Widget>[
+        appBar: SLAppBarWidget(title:'',leadingWidget: CloseButton(),backgroundColor: Theme.of(context).scaffoldBackgroundColor ,iconTheme: IconThemeData(color: Colors.black), actions: <Widget>[
           Padding(
             padding: EdgeInsets.fromLTRB(0, 10, 10, 10),
             child: FlatButton(
