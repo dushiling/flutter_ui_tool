@@ -463,7 +463,8 @@ class AlertDialogUtil {
       {String? tipTitle,
       String? message,
       VoidCallback? sureClick,
-      VoidCallback? cancelClick}) async {
+      VoidCallback? cancelClick,
+      }) async {
     return showDialog(
         context: context,
         builder: (context) => Alert(

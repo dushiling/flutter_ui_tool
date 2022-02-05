@@ -228,7 +228,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                                     ? 'get_code'.tr
                                     : "（${snapshot.data!.ms~/1000} s）",
                                 style: TextStyle(
-                                    fontSize: 28.sp, color: Colors.blueAccent)),
+                                    fontSize: 28.sp, color: ColorsV.primaryColor)),
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all(Colors.transparent),
                               elevation: MaterialStateProperty.all(0),
@@ -238,7 +238,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                                     borderRadius: BorderRadius.circular(1),
                                     side: BorderSide(
                                         color: snapshot.data!.isClick
-                                            ? Colors.blueAccent
+                                            ? ColorsV.primaryColor
                                             : const Color(0xFFCCCCCC),
                                         width: 0.8)),
                               ),

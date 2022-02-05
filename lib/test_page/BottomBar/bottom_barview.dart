@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_tool/utils/alert_dialog_util.dart';
 
 import 'child/bottom_bar_view.dart';
 
@@ -43,7 +44,9 @@ class _BottomBarViewDemoState extends State<BottomBarViewDemo> with TickerProvid
       Expanded(child: SizedBox()),
       BottomBarView(
         tabIconsList: tabIconsList,
-        addClick: () {},
+        addClick: () {
+          AlertDialogUtil.showMessageDialog(context,tipTitle: '提示',message: '这里做点击+后需要的操作');
+        },
         changeIndex: (index) =>
             setState(() => title = "${tabIconsList[index].index}"),
       )
