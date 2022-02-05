@@ -52,16 +52,16 @@
 
 
 ### Sliver
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/family_%20widget.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/combination.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliver_nestedScrollview.gif)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/family_%20widget.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliver_nestedScrollview.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/combination.jpg)|
 | :--: | :--: | :--: |
-|家族控件|组合|sliver和nestedScrollview结合|
+|家族控件|sliver和nestedScrollview结合|组合|
 
 
 ### 登录模板
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_3.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_4.jpg)|
 | :--: | :--: | :--: | :--: |
 |常规1|常规2|常规3|常规4|
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/top_bottom.gif)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/round.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/top_bottom.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/overturn.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/present.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/bottomSheet.gif)|
 |上下交替|前后翻转|present跳转|BottomSheet弹出|
 
 
