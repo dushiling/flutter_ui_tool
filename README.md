@@ -47,7 +47,7 @@
 |常规|底部线条|切换变色|气泡bar|
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/top_line.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/round.gif)|
 |顶部线条|ios风格|浮动按钮|圆形突出|
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/curve.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex2.jpg)|![4]((https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/concave.gif)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/curve.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex2.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/concave.gif)|
 |曲线|凸起弧度1|凸起弧度2|凹入|
 
 
@@ -72,3 +72,5 @@
 ### 个人中心
 
 ### 引导页
+
+## 特别鸣谢
