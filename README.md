@@ -42,7 +42,7 @@
 
 
 ### BottomNavigationBar
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/change_color.gif)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/change_color.gif)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
 | :--: | :--: | :--: | :--: |
 |常规|底部线条|切换变色|气泡bar|
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/top_line.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/round.jpg)|
