@@ -26,23 +26,23 @@
 ## 运行截图
 
 ### Alert_Dialog 、Button、TextField的封装使用
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/alert_dialog.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/button.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/textfield.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/alert_dialog.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/button.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/textfield.jpg)|
 | :--: | :--: | :--: |
 |Alert_Dialog|Button|TextField|
 
 
 
 ### TabBar
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/top_bar_NoScroll.jpeg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/top_bar_Scroll.jpeg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/top_bar_Height44.jpeg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/top_bar_NoScroll.jpeg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/top_bar_Scroll.jpeg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/top_bar_Height44.jpeg)|
 | :--: | :--: | :--: | 
 |top_bar_NoScroll|top_bar_Scroll|top_bar_Height44|
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/sliver_tab_NoScroll.jpeg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/sliver_tab_Scroll.jpeg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/tabbar/sliver_tab_Extent.jpeg)
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/sliver_tab_NoScroll.jpeg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/sliver_tab_Scroll.jpeg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/Tabbar/sliver_tab_Extent.jpeg)
 |sliver_tab_NoScroll|sliver_tab_Scroll|sliver_tab_Extent|
 
 
 
 ### BottomNavigationBar
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/change_color.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/change_color.gif)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
 | :--: | :--: | :--: | :--: |
 |常规|底部线条|切换变色|气泡bar|
 |![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/top_line.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/round.jpg)|
