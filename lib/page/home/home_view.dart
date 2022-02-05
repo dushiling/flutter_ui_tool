@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
+import 'package:flutter_ui_tool/test_page/Sliver/sliverAppBar_page.dart';
 import 'package:get/get.dart';
 import 'package:flutter_ui_tool/page/mine/mine_view.dart';
 import 'package:flutter_ui_tool/test_page/BottomBar/bottom_appbar.dart';
@@ -87,7 +88,7 @@ class _HomePageState extends State<HomePage> {
 
   List topBarList = ['top_bar_NoScroll','top_bar_Scroll','top_bar_Height44','sliver_tab_NoScroll','sliver_tab_Scroll','sliver_tab_Extent'];
   List bottomBarList = ['NavigationBarFixed--常规','BottomLineBar--底部线条','NavigationBarShifting--切换变色','BubbleBottomBar','Titled Bottom Bar--顶部线条','CupertinoTabBar--iOS效果','BottomBar--floatingActionButton','FancyBottomNavigationBar','CurvedNavigationBar--曲线','BottomBarView--中间加号+图标动效','ConvexBottombar--凸起'];
-  List sliverBarList = ['Sliver 家族控件基本使用','Scroll_Header','Sliver 与NestedScrollView结合'];
+  List sliverBarList = ['Sliver 家族控件基本使用','SliverAppBar+tab','Scroll_Header','Sliver 与NestedScrollView结合'];
   List LoginUIList = ['登录页面1––通用登录','登录页面2––上下交替','登录页面3––前后翻转','登录页面4––present跳转','登录页面5––BottomSheet弹出','登录页面6––手机号登录 ','登录页面7--简洁登录','登录页面8--表情背景动效','登录页面9--视频背景','登录页面10--验证码验证登录'];
   List sideBarList =['SideBar1-左侧内部','SideBar2-左侧外部','SideBar3-左侧外部弧形','SideBar4-右侧外部','SideBar5-左右内侧'];
   List mineList =['我的1-导航栏透明渐变','我的2-vip卡片','我的3-页面联动',];
@@ -213,10 +214,13 @@ class _HomePageState extends State<HomePage> {
                         if(index==0){
                           Get.to(SliverWidget());
                         }else if(index==1){
-                          Get.to(ScrollHeaderDemoPage());
+                          Get.to(SliverAppBarPage());
                         }else if(index==2){
+                          Get.to(ScrollHeaderDemoPage());
+                        }else if(index==3){
                           Get.to(SliverPage());
                         }
+
                       },
                     )).toList(),
                   ),
