@@ -42,12 +42,12 @@
 
 
 ### BottomNavigationBar
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/change_color.gif)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/bubble_bar.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/general.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bottom_line.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/change_color.gif)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bubble_bar.gif)|
 | :--: | :--: | :--: | :--: |
 |常规|底部线条|切换变色|气泡bar|
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/top_line.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/round.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/top_line.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/ios_style.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar.gif)|
 |顶部线条|ios风格|浮动按钮|圆形突出|
-|![1](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/curve.jpg)|![2](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex.jpg)|![3](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/convex2.jpg)|![4](https://github.com/dushiling/flutter_ui_tool/blob/main/assets/demonst_img/bottomNavigationBar/concave.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/curve.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex2.jpg)|![4](hhttps://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/concave.gif)|
 |曲线|凸起弧度1|凸起弧度2|凹入|
 
 
