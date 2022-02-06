@@ -7,9 +7,11 @@
 
 ## 本项目包括：
 
-- 首页（Alert、Button、TextField、TabBar、BottomNavigationBar、Sliver、登录模板、侧边栏、我的、个人中心、引导页等）
+- 首页（Alert、Button、TextField、TabBar、BottomNavigationBar、Sliver、登录模板、侧边栏、我的、个人中心、引导页）
 - 局部（Text、Image等小组件、地址、时间/日期、标签、进度条、侧滑删除、下拉筛选菜单、滚动到指定位置、监听所在位置 ）
 - 动画（Animation系列、Tween、Curves、其他、插件-animations ）
+- 项目中用到的封装的工具类（size_util、tost_util、platform_utils、log_utils、color_util、style_util、theme_util等 ）
+- 夜间模式、多语言
 
 
 ## 运行环境
@@ -84,6 +86,51 @@
 | :--: | :--: | :--: |
 |本地图片|网络图片|动画式|
 
+
+
+### Widgets
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/text.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/image.jpg)|![3](https://github.com/dushiling/project_image/blob/main/toggleButtom.jpg)|![4](https://github.com/dushiling/project_image/blob/main/chack_switch.jpg)|
+| :--: | :--: | :--: | :--: |
+|文字|图片|ToggleButton|Check-Switch|
+
+### 地址
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/address/picker.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/address/city.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/address/country.jpg)|
+| :--: | :--: | :--: |
+|picker|城市|国家|
+
+
+### 时间
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/time/picker.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/time/round_select.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/time/clock.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/time/alarm_clock.jpg)|
+| :--: | :--: | :--: | :--: |
+|picker选择|时钟选择|绘制实时钟表|绘制实时闹钟|
+
+
+### 标签
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/tag/chip.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/tag/hot.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/tag/drag.jpg)|
+| :--: | :--: | :--: |
+|Chip|热门|添加删除|
+
+### 进度条
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/progressbar/one-way.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/progressbar/two-way.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/progressbar/no-way.jpg)|
+| :--: | :--: | :--: |
+|单向|双向|无节点|
+
+
+### 侧滑删除
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sideslip_delete/one_deleate.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sideslip_delete/two_deleate.jpg)|
+| :--: | :--: |
+|单向侧滑|双向侧滑|
+
+### 下拉筛选菜单
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/dropDown_menu/one_select.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/dropDown_menu/mult_select.jpg)|
+| :--: | :--: |
+|仿美团|多选|
+
+
+### 滚动到指定位置、监听所在位置
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_%20position/sp1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_%20position/sp2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp1.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp2.jpg)|
+| :--: | :--: | :--: | :--: |
+|滚动到指定位置1|滚动到指定位置2|监听所在位置1|监听所在位置2|
 
 
 
