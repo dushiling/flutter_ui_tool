@@ -64,7 +64,7 @@
 
 
 ### 侧边栏
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_inner.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_out.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_inner.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out_radian.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_inner.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_out.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out_radian.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/right_out.jpg)|
 | :--: | :--: | :--: | :--: |
 |左边-内部|左边-外部|左边-弧度|右边-外部|
 
