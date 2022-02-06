@@ -2,7 +2,7 @@
 
 ## Android APK 下载地址
 
-`声明1：本项目仅供学习，部分参考别人页面的功能也已标注出原出处，如有侵犯原作者的地方请联系本人进行删除。`
+`声明1：本项目仅供学习，部分参考别人页面的功能也已标注出原出处，如有侵犯原作者的地方请联系本人添加标注或删除。`
 
 
 ## 本项目包括：
@@ -89,7 +89,7 @@
 
 
 ### Widgets
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/text.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/image.jpg)|![3](https://github.com/dushiling/project_image/blob/main/toggleButtom.jpg)|![4](https://github.com/dushiling/project_image/blob/main/chack_switch.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/text.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/image.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/toggleButtom.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/widgets/chack_switch.jpg)|
 | :--: | :--: | :--: | :--: |
 |文字|图片|ToggleButton|Check-Switch|
 
@@ -128,10 +128,15 @@
 
 
 ### 滚动到指定位置、监听所在位置
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_%20position/sp1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_%20position/sp2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp1.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp2.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_position/sp1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/scroll_position/sp2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp1.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/monitor_position/mp2.jpg)|
 | :--: | :--: | :--: | :--: |
 |滚动到指定位置1|滚动到指定位置2|监听所在位置1|监听所在位置2|
 
+
+### 动画
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/animation/animation.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/animation/curves.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/animation/transition.gif)|
+| :--: | :--: | :--: |
+|Tween+Animation|Curvers|路由过渡动画Transition|
 
 
 ## 特别鸣谢
