@@ -25,10 +25,10 @@
 
 ## 运行截图
 
-### Alert_Dialog 、Button、TextField的封装使用
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/alert_dialog.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/button.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/textfield.jpg)|
+### Button、TextField、Alert_Dialog 的封装使用
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/button.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/textfield.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/other/alert_dialog.jpg)|
 | :--: | :--: | :--: |
-|Alert_Dialog|Button|TextField|
+|Button|TextField|Alert_Dialog|
 
 
 
@@ -44,31 +44,47 @@
 | :--: | :--: | :--: | :--: |
 |常规|底部线条|切换变色|ios风格|
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/top_line.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/bubble_bar.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/float_button.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/round.gif)|
-|顶部线条|气泡bar|浮动按钮|圆形突出|
+|顶部线条|气泡bar|按钮固定中间|圆形突出|
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/curve.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/convex2.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/bottomNavigationBar/concave.gif)|
 |曲线|凸起弧度1|凸起弧度2|凹入|
 
 
 ### Sliver
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliverAppBar_tab.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/family_widget.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliver_nestedScrollview.gif)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/combination.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/family_widget.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliverAppBar_tab.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/sliver_nestedScrollview.gif)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sliver/combination.jpg)|
 | :--: | :--: | :--: | :--: |
-|SliverAppBar+tab|家族控件|sliver+nestedScrollview|组合测试|
+|家族控件|SliverAppBar+tab|sliver+nestedScroll|组合测试|
 
 
 ### 登录模板
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_3.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/ordinary_4.jpg)|
 | :--: | :--: | :--: | :--: |
-|常规1|常规2|常规3|常规4|
+|常规-登录|常规-注册|常规-快速登录|常规-忘记密码|
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/top_bottom.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/overturn.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/present.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/bottomSheet.gif)|
 |上下交替|前后翻转|present跳转|BottomSheet弹出|
 
 
 ### 侧边栏
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_inner.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_out.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_inner.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out_radian.jpg)|
+| :--: | :--: | :--: | :--: |
+|左边-内部|左边-外部|左边-弧度|右边-外部|
 
 ### 我的
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/mine/appbar_gradient.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/mine/card.jpg)|
+| :--: | :--: |
+|导航栏渐变|卡片|
+
 
 ### 个人中心
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/person_center/person1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/person_center/person2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/person_center/person3.jpg)|
+| :--: | :--: | :--: |
+|顶部弧度|个人详情模式1|个人详情模式2|
 
 ### 引导页
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/guidance/g1.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/guidance/g2.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/guidance/g3.gif)|
+| :--: | :--: | :--: |
+|本地图片|网络图片|动画式|
+
+
+
 
 ## 特别鸣谢

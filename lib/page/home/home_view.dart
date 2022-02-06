@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:flutter_ui_tool/test_page/Sliver/sliverAppBar_page.dart';
 import 'package:get/get.dart';
-import 'package:flutter_ui_tool/page/mine/mine_view.dart';
 import 'package:flutter_ui_tool/test_page/BottomBar/bottom_appbar.dart';
 import 'package:flutter_ui_tool/test_page/BottomBar/bottom_barview.dart';
 import 'package:flutter_ui_tool/test_page/BottomBar/bottom_navigation_bar.dart';
@@ -132,15 +131,17 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      FloatingActionButton(onPressed: ()  async {
-                        Get.to(AlertDialogTestPage());
-                      },heroTag: 0,child: Text('Alert')),
+
                       FloatingActionButton(onPressed: ()   {
                         Get.to(BtnTestPage());
-                      },heroTag: 1,child: Text('Button')),
+                      },heroTag: 0,child: Text('Button')),
                       FloatingActionButton(onPressed: ()   {
                         Get.to(TextFidldTextPage());
-                      },heroTag: 2,child: Text('TextFild',style: TextStyle(fontSize: 12),)),
+                      },heroTag: 1,child: Text('TextFild',style: TextStyle(fontSize: 12),)),
+                      FloatingActionButton(onPressed: ()  async {
+                        Get.to(AlertDialogTestPage());
+                      },heroTag: 2,child: Text('Alert')),
+
                     ],
                   ),
 
