@@ -13,7 +13,7 @@
 
 
 ## 运行环境
-
+`提示：null-safe环境`
 ```
 [✓] Flutter (Channel stable, 2.8.1, on macOS 12.0.1 21A559 darwin-x64, locale zh-Hans-CN)
 [✓] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
@@ -64,7 +64,7 @@
 
 
 ### 侧边栏
-|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_inner.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/letf_out.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out_radian.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/right_out.jpg)|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_inner.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/left_out_radian.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/sidebar/right_out.jpg)|
 | :--: | :--: | :--: | :--: |
 |左边-内部|左边-外部|左边-弧度|右边-外部|
 
