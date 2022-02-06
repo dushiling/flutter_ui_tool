@@ -63,6 +63,8 @@
 |常规-登录|常规-注册|常规-快速登录|常规-忘记密码|
 |![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/top_bottom.gif)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/overturn.gif)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/present.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/bottomSheet.gif)|
 |上下交替|前后翻转|present跳转|BottomSheet弹出|
+|![1](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/phone.jpg)|![2](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/expression.jpg)|![3](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/verificod.jpg)|![4](https://github.com/dushiling/project_image/blob/main/flutter_ui_tool/login/login_video_demo.gif)|
+|手机号登录|表情动效|验证码登录|视频背景登录|
 
 
 ### 侧边栏
@@ -140,3 +142,7 @@
 
 
 ## 特别鸣谢
+- [shichulei/flutter_app](https://github.com/shichunlei/flutter_app)
+- [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates)
+- [CarGuo/gsy_flutter_demo](https://github.com/CarGuo/gsy_flutter_demo)
+- [kingsic/flutterkit](https://github.com/kingsic/flutterkit)
