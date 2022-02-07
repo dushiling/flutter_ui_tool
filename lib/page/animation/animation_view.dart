@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_tool/test_page/Animation/Tween/tween_animation_builder.dart';
 import 'package:get/get.dart';
 import 'package:flutter_ui_tool/test_page/Animation/Animated/animated_align.dart';
 import 'package:flutter_ui_tool/test_page/Animation/Animated/animated_builder.dart';
@@ -16,7 +17,6 @@ import 'package:flutter_ui_tool/test_page/Animation/Curves/curves_demo.dart';
 import 'package:flutter_ui_tool/test_page/Animation/Other/route_sample.dart';
 import 'package:flutter_ui_tool/test_page/Animation/Tween/tween.dart';
 import 'package:flutter_ui_tool/test_page/Animation/plugins_animations/container_transition.dart';
-import 'package:flutter_ui_tool/test_page/Animation/Tween/tween_animation_builder.dart';
 import 'package:flutter_ui_tool/test_page/Animation/plugins_animations/fade_scale_transition.dart';
 import 'package:flutter_ui_tool/test_page/Animation/plugins_animations/fade_through_transition.dart';
 import 'package:flutter_ui_tool/test_page/Animation/plugins_animations/shared_axis_transition.dart';
@@ -83,7 +83,7 @@ class AnimationPage extends StatelessWidget {
                    int index= TweenList.indexOf(e);
                    if(index==0){
                      Get.to(TweenDemo());
-                   }else if(index==0){
+                   }else if(index==1){
                      Get.to(FlutterAnimationWidget());
                    }
                  },

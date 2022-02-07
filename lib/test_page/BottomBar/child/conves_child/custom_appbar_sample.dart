@@ -16,7 +16,6 @@
 
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
-
 import 'color_item_view.dart';
 import 'package:get/get.dart';
 
@@ -29,12 +28,19 @@ class CustomAppBarDemo extends StatefulWidget {
   }
 }
 
-class _State extends State<CustomAppBarDemo>
-    with SingleTickerProviderStateMixin {
+class _State extends State<CustomAppBarDemo> with SingleTickerProviderStateMixin {
+
   List<TabItem> items = <TabItem>[
-    TabItem(icon: Icons.home, title: 'Home'),
-    TabItem(icon: Icons.map, title: 'Discovery'),
-    TabItem(icon: Icons.plus_one, title: 'Add'),
+    TabItem(title: '2019', icon: Icons.link),
+    TabItem(
+        icon: Container(
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Color(0xFFFF5722),
+          ),
+          child: Icon(Icons.add, color: Colors.white, size: 40),
+        )),
+    TabItem(title: "2020", icon: Icons.work),
   ];
 
   static const paletteColors = [
@@ -63,21 +69,21 @@ class _State extends State<CustomAppBarDemo>
   Widget build(BuildContext context) {
     return DefaultTabController(
         initialIndex: 0,
-        length: 2,
+        length: items.length,
         child: Scaffold(
           appBar: AppBar(title: const Text('Custom ConvexAppBar')),
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
-            children: [1,2].map((e) => Center(child: Text('$e'),)).toList()
-            // items
-            //     .map((i) => i.title == 'Discovery'
-            //         ? paletteBody()
-            //         : Center(
-            //             child: Text(
-            //             '<\t\t${i.title}\t\t>',
-            //             style: TextStyle(fontSize: 30),
-            //           )))
-            //     .toList(growable: false),
+            children:
+            items
+                .map((i) => i.title == 'Discovery'
+                    ? Container()
+                    : Center(
+                        child: Text(
+                        '${i.title}',
+                        style: TextStyle(fontSize: 30),
+                      )))
+                .toList(growable: false),
           ),
           bottomNavigationBar: StyleProvider(
             style: Style(),
@@ -87,18 +93,7 @@ class _State extends State<CustomAppBarDemo>
               top: -30,
               curveSize: 100,
               style: TabStyle.fixedCircle,
-              items: [
-                TabItem(title: '2019', icon: Icons.link),
-                TabItem(
-                    icon: Container(
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color(0xFFFF5722),
-                  ),
-                  child: Icon(Icons.add, color: Colors.white, size: 40),
-                )),
-                TabItem(title: "2020", icon: Icons.work),
-              ],
+              items: items,
               backgroundColor: _tabBackgroundColor,
               cornerRadius: 25,
               onTabNotify: (i) {
@@ -109,7 +104,7 @@ class _State extends State<CustomAppBarDemo>
                 return !intercept;
               },
               onTap: (i) => debugPrint('click $i'),
-              initialActiveIndex: 0,
+              // initialActiveIndex: 0,
             ),
           )
         ));
